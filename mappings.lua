@@ -41,6 +41,7 @@ return {
     },
     ["]q"] = { "<cmd>cnext<cr>", desc = "cnext" },
     ["[q"] = { "<cmd>cprev<cr>", desc = "cnext" },
+    ["<leader>w"] = { "<cmd>HopChar2<cr>", desc = "jump word" },
   },
   t = {
     -- setting a mapping to false will disable it
