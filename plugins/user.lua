@@ -9,4 +9,16 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  {
+    "tpope/vim-fugitive",
+    lazy = false,
+  },
+  {
+    "ggandor/leap.nvim",
+    name = "leap",
+    lazy = false,
+    config = function()
+      require("leap").add_default_mappings()
+    end,
+  },
 }
